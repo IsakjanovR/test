@@ -7,7 +7,6 @@
 include_once "connect.php";
 include "show_coment.php";
 ?>
-
 <div class="main">
     <div class="main--content">
         <?php

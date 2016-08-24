@@ -14,7 +14,6 @@ function show_all_coments()
             echo "<p>Сообщение:</p><div class='comment__text'>" . $newsArray['text'] . "</div></div>";
             echo "<div class='date'><p>Дата публикации:</p><div class='comment_date'>" . $newsArray['date'] . "</div></div>";
             echo "<a href='#'><input type='button' id='del-" . $newsArray['id'] . "' class='del_button' value='delete'/></a></div></div>";
-
         } while ($newsArray = mysqli_fetch_array($newsQuery));
     } else {
         echo 'В базе еще нету ни одного коментария';
