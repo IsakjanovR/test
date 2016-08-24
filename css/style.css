@@ -1,0 +1,46 @@
+textarea#text ,input#username {
+    width: 500px;
+    display: block;
+    padding: 20px;
+    margin: 0;
+    background: #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    font-family: 'Lato', Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #111;
+}
+textarea#text{
+    height: 200px;
+}
+.main--content {
+    width: 80%;
+    margin: 0 auto;
+}
+.comment__text {
+    padding: 10px;
+    background: #eaeaea;
+    width: 60%;
+}
+.messenge {
+    width: 500px;
+    float: left;
+}
+.aythor {
+    width: 200px;
+    height: 40px;
+    float: left;
+}
+.aythor p {
+    float: left;
+    margin: 10px;
+}
+.comment__author {
+    float: left;
+    margin: 10px;
+}
+.date {
+    position: relative;
+    width: 30%;
+    float: right;
+}
